@@ -18,7 +18,7 @@ jobs:
           run:  |
             echo "Repository Name: ${{github.repository}}"
             echo "Repository Owner: ${{github.owner}}"
-            
+            echo "Event name : ${{github.event}}"
  
 
 
